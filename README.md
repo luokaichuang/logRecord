@@ -9,14 +9,14 @@
 #### 函数说明：
 1. file	: 文件名称
 2. line	: 行号
-3. level	: 错误级别
+3. level: 错误级别
 	- 0 -- 没有日志
 	- 1 -- debug级别
 	- 2 -- info级别
 	- 3 -- warning级别
 	- 4 -- err级别
 4. status: 错误码
-5. fmt	: 可变参数(用于LOG信息)
+5. fmt	 : 可变参数(用于LOG信息)
 
 #### 用法
 1. WinNT先在C盘根目录建立lrlog文件夹，Linux则在用户目录建立log文件夹
